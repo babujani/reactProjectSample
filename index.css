@@ -1,0 +1,25 @@
+/* Write your code here. */
+.backgroundImg {
+  background-color: #0f172a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #f8fafc;
+  font-family: "roboto";
+  text-align: center;
+}
+*{
+    margin=0px;
+}
+img{
+    height:200px
+}
+@media (min-width:768px){
+img{
+    height:400px
+}
+}
